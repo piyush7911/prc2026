@@ -1,0 +1,21 @@
+# large or generated
+/data/
+/artifacts/
+/models/
+/outputs/
+*.parquet
+*.npy
+*.cbm
+catboost_info/
+__pycache__/
+.DS_Store
+!/configs/*.parquet
+# paper sources stay local; the paper is docs/paper.pdf, and the scripts and data it cites stay tracked
+/docs/paper/*
+!/docs/paper/FIGURES.md
+!/docs/paper/figure_data.py
+!/docs/paper/figure_data.json
+!/docs/paper/make_figures.py
+!/docs/paper/feature_importance.py
+!/docs/paper/feature_importance.json
+/docs/paper.zip

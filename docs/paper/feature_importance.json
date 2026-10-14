@@ -1,0 +1,191 @@
+{
+ "groups_base": {
+  "runway queue and traffic": 85,
+  "weather and de-icing": 38,
+  "NM clocks and clock gaps": 25,
+  "arrivals, stands and references": 22,
+  "neighbour NM clocks": 17,
+  "aircraft, operator, stand and runway identity": 16,
+  "target encodings": 16,
+  "recording-defect state": 10,
+  "calendar": 7,
+  "flight and route": 5
+ },
+ "groups_stacker": {
+  "runway queue and traffic": 85,
+  "weather and de-icing": 38,
+  "ADS-B ground-track timing": 36,
+  "NM clocks and clock gaps": 25,
+  "arrivals, stands and references": 22,
+  "neighbour NM clocks": 17,
+  "aircraft, operator, stand and runway identity": 16,
+  "target encodings": 16,
+  "recording-defect state": 10,
+  "calendar": 7,
+  "flight and route": 5
+ },
+ "n_base": 241,
+ "n_stacker": 278,
+ "baseline": {
+  "1": 385.70811204442134,
+  "2": 411.92025380453475,
+  "6": 449.1035196671266,
+  "7": 511.7966763971727,
+  "four": 447.03013079065437,
+  "normal_four": 410.7318069317784
+ },
+ "importance_base": {
+  "top": [
+   [
+    "naive_raw_minus_unimp",
+    0.16509014141165024
+   ],
+   [
+    "aobt3_minus_eobt1",
+    0.12061906644394622
+   ],
+   [
+    "naive_minus_unimp",
+    0.08281478135867433
+   ],
+   [
+    "aobt3_minus_lobt",
+    0.04491421820041107
+   ],
+   [
+    "tko_minus_sched",
+    0.028630608045856005
+   ],
+   [
+    "ter_stand_rwy_mean",
+    0.024682796439378842
+   ],
+   [
+    "ter_apt_op_mean",
+    0.021379695145441788
+   ],
+   [
+    "naive_raw",
+    0.017186508369929535
+   ],
+   [
+    "apt_rwy",
+    0.015918155177304452
+   ],
+   [
+    "tko_minus_eobt1",
+    0.01552758401439358
+   ],
+   [
+    "stand_prefix",
+    0.01480007046384063
+   ],
+   [
+    "naive_raw_gt3600",
+    0.014256868409505867
+   ],
+   [
+    "prev_arr_gap_h",
+    0.012892157680688363
+   ],
+   [
+    "aobt3_minus_sched",
+    0.012055989649402762
+   ],
+   [
+    "aobt3_minus_sched_raw",
+    0.012003906626699723
+   ]
+  ],
+  "by_group": {
+   "NM clocks and clock gaps": 0.5844783414642194,
+   "runway queue and traffic": 0.12394141303466406,
+   "target encodings": 0.09250320429675031,
+   "aircraft, operator, stand and runway identity": 0.06785270635673069,
+   "arrivals, stands and references": 0.05410913176494512,
+   "weather and de-icing": 0.02669215447410141,
+   "neighbour NM clocks": 0.022249395618022725,
+   "recording-defect state": 0.018676227715631245,
+   "flight and route": 0.005967441771955086,
+   "calendar": 0.0035299835029799814
+  }
+ },
+ "importance_stacker": {
+  "top": [
+   [
+    "base",
+    0.09207158671674015
+   ],
+   [
+    "ads_first_slow",
+    0.03990270477192249
+   ],
+   [
+    "ads_movsust_minus_aobt",
+    0.03891363273020971
+   ],
+   [
+    "ads_first_mov_sust",
+    0.03727723831503439
+   ],
+   [
+    "ads_first_mov",
+    0.03666934758373861
+   ],
+   [
+    "ads_mov_minus_aobt",
+    0.03608014110095487
+   ],
+   [
+    "ads_as_dmin",
+    0.02620585741136718
+   ],
+   [
+    "stand",
+    0.0227704486774691
+   ],
+   [
+    "ads_path_m",
+    0.020557411905552807
+   ],
+   [
+    "ads_first_fast",
+    0.020300469014552083
+   ],
+   [
+    "ads_taxi_stop_s",
+    0.016359833776204567
+   ],
+   [
+    "tko_minus_eobt1",
+    0.01570750844441171
+   ],
+   [
+    "ads_slow_minus_aobt",
+    0.015194042885634898
+   ],
+   [
+    "aobt3_minus_eobt1",
+    0.015036453797621533
+   ],
+   [
+    "aobt3_minus_sched",
+    0.013899584191615945
+   ]
+  ],
+  "by_group": {
+   "ADS-B ground-track timing": 0.41618949096708796,
+   "NM clocks and clock gaps": 0.12380115787632566,
+   "runway queue and traffic": 0.11876554426253576,
+   "other": 0.09207158671674015,
+   "aircraft, operator, stand and runway identity": 0.06490378573435043,
+   "target encodings": 0.053091461670498726,
+   "arrivals, stands and references": 0.050596142844998124,
+   "weather and de-icing": 0.026603078723836493,
+   "neighbour NM clocks": 0.02564540032092833,
+   "recording-defect state": 0.019312812957561903,
+   "calendar": 0.0046164688965543415,
+   "flight and route": 0.0044030690285821175
+  }
+ }
+}
